@@ -15,5 +15,23 @@ val person = pattern.mapObject<Person>("Philipp Ploder")
 // The variable <person> now contains the object Person("Philipp", "Ploder")
 ```
 
+## Installation
+Either download the latest release from the `Releases` tab or use Maven with a custom repository.
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.github.Fylipp</groupId>
+    <artifactId>regular-map</artifactId>
+    <version>v1.0.0</version>
+</dependency>
+```
+
 ## License
 See the `LICENSE` file in the root directory of the repository.
